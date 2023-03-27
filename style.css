@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  }
+  
+  .container {
+
+    
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .timer {
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  .timer-label {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .time-left {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+
+  
+           
+  button{
+    background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
